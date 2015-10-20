@@ -1,0 +1,487 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../usr/local/Cellar/ruby/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../usr/local/Cellar/ruby/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../usr/local/Cellar/ruby/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../usr/local/Cellar/ruby/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../usr/local/Cellar/ruby/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../usr/local/Cellar/ruby/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../usr/local/Cellar/ruby/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../usr/local/Cellar/ruby/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../usr/local/Cellar/ruby/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/* line 1, ../sass/_normalize.scss */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 1, ../sass/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 1, ../sass/_normalize.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/_normalize.scss */
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 1, ../sass/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 1, ../sass/_normalize.scss */
+[hidden], template {
+  display: none;
+}
+
+/* line 1, ../sass/_normalize.scss */
+a {
+  background-color: transparent;
+}
+
+/* line 1, ../sass/_normalize.scss */
+a:active, a:hover {
+  outline: 0;
+}
+
+/* line 1, ../sass/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 1, ../sass/_normalize.scss */
+b, strong {
+  font-weight: 700;
+}
+
+/* line 1, ../sass/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 1, ../sass/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+/* line 1, ../sass/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 1, ../sass/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 1, ../sass/_normalize.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 1, ../sass/_normalize.scss */
+sup {
+  top: -.5em;
+}
+
+/* line 1, ../sass/_normalize.scss */
+sub {
+  bottom: -.25em;
+}
+
+/* line 1, ../sass/_normalize.scss */
+img {
+  border: 0;
+}
+
+/* line 1, ../sass/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 1, ../sass/_normalize.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/* line 1, ../sass/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 1, ../sass/_normalize.scss */
+pre {
+  overflow: auto;
+}
+
+/* line 1, ../sass/_normalize.scss */
+code, kbd, pre, samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+/* line 1, ../sass/_normalize.scss */
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* line 1, ../sass/_normalize.scss */
+button {
+  overflow: visible;
+}
+
+/* line 1, ../sass/_normalize.scss */
+button, select {
+  text-transform: none;
+}
+
+/* line 1, ../sass/_normalize.scss */
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 1, ../sass/_normalize.scss */
+button[disabled], html input[disabled] {
+  cursor: default;
+}
+
+/* line 1, ../sass/_normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 1, ../sass/_normalize.scss */
+input {
+  line-height: normal;
+}
+
+/* line 1, ../sass/_normalize.scss */
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 1, ../sass/_normalize.scss */
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 1, ../sass/_normalize.scss */
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 1, ../sass/_normalize.scss */
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 1, ../sass/_normalize.scss */
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+/* line 1, ../sass/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 1, ../sass/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/* line 1, ../sass/_normalize.scss */
+optgroup {
+  font-weight: 700;
+}
+
+/* line 1, ../sass/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 1, ../sass/_normalize.scss */
+td, th {
+  padding: 0;
+}
+
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+/* line 3, ../sass/_boilerplate-head.scss */
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* line 9, ../sass/_boilerplate-head.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 14, ../sass/_boilerplate-head.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 19, ../sass/_boilerplate-head.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 28, ../sass/_boilerplate-head.scss */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/* line 37, ../sass/_boilerplate-head.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 43, ../sass/_boilerplate-head.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 47, ../sass/_boilerplate-head.scss */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/* line 5, ../sass/_boilerplate-foot.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 10, ../sass/_boilerplate-foot.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 21, ../sass/_boilerplate-foot.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 31, ../sass/_boilerplate-foot.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 35, ../sass/_boilerplate-foot.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 41, ../sass/_boilerplate-foot.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 45, ../sass/_boilerplate-foot.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+@media print {
+  /* line 54, ../sass/_boilerplate-foot.scss */
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 63, ../sass/_boilerplate-foot.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 68, ../sass/_boilerplate-foot.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 72, ../sass/_boilerplate-foot.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 76, ../sass/_boilerplate-foot.scss */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+
+  /* line 81, ../sass/_boilerplate-foot.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 87, ../sass/_boilerplate-foot.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 91, ../sass/_boilerplate-foot.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 96, ../sass/_boilerplate-foot.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  /* line 100, ../sass/_boilerplate-foot.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 107, ../sass/_boilerplate-foot.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
