@@ -357,7 +357,7 @@ textarea {
    ========================================================================== */
 /* line 10, ../sass/_main.scss */
 html {
-  background: #AC402A;
+  background: #b5533f;
   font-family: "ff-meta-serif-web-pro", Georgia, serif;
   font-weight: 500;
   color: #2B3439;
@@ -388,23 +388,35 @@ section {
 
 /* line 38, ../sass/_main.scss */
 #hero {
-  background: #AC402A;
+  background: #b5533f;
   color: white;
+  background-image: url("/img/hero-bg.png");
+  background-position: center bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-/* line 42, ../sass/_main.scss */
+/* line 48, ../sass/_main.scss */
 #hero-content {
   width: 48.14815%;
   margin: 0 auto;
 }
 
-/* line 48, ../sass/_main.scss */
+/* line 54, ../sass/_main.scss */
 #introduction {
   background: #155B62;
   color: white;
+  background-image: url("/img/intro-bg.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-/* line 52, ../sass/_main.scss */
+/* line 64, ../sass/_main.scss */
 #intro-content {
   *zoom: 1;
 }
@@ -417,22 +429,22 @@ section {
 #intro-content:after {
   clear: both;
 }
-/* line 54, ../sass/_main.scss */
+/* line 66, ../sass/_main.scss */
 #intro-content .col-4 {
   float: left;
   width: 48.14815%;
   margin-right: 3.7037%;
 }
-/* line 58, ../sass/_main.scss */
+/* line 70, ../sass/_main.scss */
 #intro-content .col-4:last-child {
   margin-right: 0;
 }
 
-/* line 65, ../sass/_main.scss */
+/* line 77, ../sass/_main.scss */
 #people {
   background: #F5F5F5;
 }
-/* line 67, ../sass/_main.scss */
+/* line 79, ../sass/_main.scss */
 #people ul {
   *zoom: 1;
 }
@@ -445,22 +457,28 @@ section {
 #people ul:after {
   clear: both;
 }
-/* line 69, ../sass/_main.scss */
+/* line 81, ../sass/_main.scss */
 #people ul li {
   float: left;
   width: 30.864197530864%;
   margin-right: 3.7037%;
 }
-/* line 73, ../sass/_main.scss */
+/* line 85, ../sass/_main.scss */
 #people ul li:last-child {
   margin-right: 0;
 }
 
-/* line 83, ../sass/_main.scss */
+/* line 95, ../sass/_main.scss */
 footer {
-  background: #AC402A;
+  background: #b5533f;
   color: white;
   padding: 90px 0;
+  background-image: url("/img/hero-bg.png");
+  background-position: center bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /* ==========================================================================

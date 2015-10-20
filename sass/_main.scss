@@ -38,6 +38,12 @@ section {
 #hero {
   background: $red;
   color: $white;
+  background-image: url("/img/hero-bg.png");
+  background-position: center bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #hero-content {
   width: $col4;
@@ -48,6 +54,12 @@ section {
 #introduction {
   background: $dark-blue;
   color: $white;
+  background-image: url("/img/intro-bg.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #intro-content {
   @include clearfix;
@@ -84,6 +96,12 @@ footer {
   background: $red;
   color: $white;
   padding: 90px 0;
+  background-image: url("/img/hero-bg.png");
+  background-position: center bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 
