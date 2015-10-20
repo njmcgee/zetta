@@ -7,11 +7,84 @@
 
 
 
-
-body {
-  // background: blue;
+html {
+  background: $red;
+  font-family: "ff-meta-serif-web-pro", Georgia, serif;
+  font-weight: $normal;
+  color: $text-color;
+  font-size: 14px;
 }
 
+body {
+  background: $white;
+}
+
+p {
+  margin-bottom: 0.8em;
+}
+
+.container {
+  max-width: 1080px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 120px 0;
+}
+
+
+
+#hero {
+  background: $red;
+  color: $white;
+}
+#hero-content {
+  width: $col4;
+  margin: 0 auto;
+}
+
+
+#introduction {
+  background: $dark-blue;
+  color: $white;
+}
+#intro-content {
+  @include clearfix;
+  .col-4 {
+    float: left;
+    width: $col4;
+    margin-right: $margin-1;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+
+#people {
+  background: $light-grey;
+  ul {
+    @include clearfix;
+    li {
+      float: left;
+      width: 30.864197530864%;
+      margin-right: $margin-1;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+
+
+
+footer {
+  background: $red;
+  color: $white;
+  padding: 90px 0;
+}
 
 
 
