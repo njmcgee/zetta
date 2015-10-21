@@ -1,0 +1,381 @@
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+html {
+  background: $red;
+  font-family: "ff-meta-serif-web-pro", Georgia, serif;
+  -webkit-font-smoothing:antialiased;
+  font-weight: $normal;
+  color: $text-color;
+  font-size: 14px;
+}
+
+body {
+  background: $white;
+}
+
+h1 {
+  font-size: 43px;
+  line-height: 51px;
+  margin-bottom: 32px;
+}
+h2 {
+  font-size: 48px;
+  line-height: 62px;
+  font-weight: $bold;
+  margin-bottom: 60px;
+}
+h3 {
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+a {
+  color: $red;
+  text-decoration: underline;
+  &:hover {
+    color: $dark-blue;
+  }
+}
+
+p {
+  margin-bottom: 0.8em;
+}
+
+.container {
+  max-width: 1080px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 120px 0;
+}
+
+
+.logo {
+  width: 100px;
+  height: 65px;
+  display: block;
+  background-image: url("/img/logo.png");
+  @include hide-text;
+  @include background-size(100px 65px);
+  margin-bottom: 55px;
+}
+#hero {
+  background: $red;
+  color: $white;
+  background-image: url("/img/hero-bg.png");
+  background-position: center bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  p {
+    font-size: 22px;
+    margin-bottom: 32px;
+  }
+}
+#hero-content {
+  width: $col4;
+  margin: 0 auto;
+  background-image: url("/img/hero-bg.png");
+}
+
+
+#introduction {
+  background: $dark-blue;
+  color: $white;
+  font-size: 18px;
+  background-image: url("/img/intro-bg.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#intro-content {
+  @include clearfix;
+  .col-4 {
+    float: left;
+    width: $col4;
+    margin-right: $margin-1;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+
+#companies {
+  h2 {
+    color: $dark-blue;
+  }
+}
+.company-pair {
+  @include clearfix;
+}
+.company {
+  width: $col4;
+  float: left;
+  margin-right: $margin-1;
+  margin-bottom: 60px;
+  &:last-child {
+    margin-right: 0;
+  }
+  dl {
+    font-size: 16px;
+    margin-bottom: 20px;
+    dt {
+      float: left;
+      width: 86px;
+      text-align: right;
+      margin-right: 8px;
+      font-weight: $bold;
+    }
+  }
+  h3 {
+    margin-bottom: 30px;
+    height: 50px;
+    a {
+      height: 50px;
+      display: inline-block;
+      &:before {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        vertical-align: bottom;
+      }
+    }
+    img {
+      width: 100%;
+      vertical-align: middle;
+      max-height: 50px;
+    }
+  }
+  &#domo img {
+      width: 72px;
+  }
+  &#insidesales img {
+      width: 170px;
+  }
+  &#lucid img {
+      width: 80px;
+  }
+  &#kaggle img {
+      width: 90px;
+  }
+  &#clearbit img {
+      width: 140px;
+  }
+  &#follow img {
+      width: 140px;
+  }
+  &#eventboard img {
+      width: 140px;
+  }
+  &#tractable img {
+      width: 44px;
+  }
+  &#content img {
+      width: 110px;
+  }
+  &#optimine img {
+      width: 140px;
+  }
+  &#pixlee img {
+      width: 120px;
+  }
+  &#stealth img {
+      width: 164px;
+  }
+  &#domino {
+    margin-bottom: 0;
+    img {
+      width: 140px;
+    }
+  }
+}
+
+
+#people {
+  background: $light-grey;
+  h2 {
+    color: $dark-blue;
+  }
+  ul {
+    @include clearfix;
+    li {
+      float: left;
+      width: 30.864197530864%;
+      margin-right: $margin-1;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+
+
+
+footer {
+  background: $red;
+  color: $white;
+  padding: 90px 0;
+  @include clearfix;
+  background-image: url("/img/hero-bg.png");
+  background-position: center bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  .logo {
+    float: left;
+    margin-right: $margin-1;
+    margin-bottom: 0;
+  }
+  p {
+    margin-bottom: 0;
+  }
+  .contact-details {
+    float: left;
+    margin-top: 13px;
+  }
+  #copyright {
+    float: right;
+    text-align: right;
+    margin-top: 51px;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+
+// Landscape tablet and down
+@media (max-width: $tablet-landscape) {
+  #hero-content {
+    width: 71.428571428571%;
+  }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: $tablet-portrait + 1) and (max-width: $tablet-landscape) {
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: $tablet-portrait) {
+  #introduction {
+    font-size: 14px;
+  }
+
+}
+
+/* Landscape phones and down */
+@media (max-width: $phone-landscape) {
+  section {
+    padding: 100px 0;
+  }
+  h2 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+  #introduction {
+    font-size: 16px;
+  }
+  #hero-content {
+    width: 100%;
+  }
+  #intro-content .col-4 {
+    width: 100%;
+    margin-right: 0;
+    float: none;
+  }
+  #introduction {
+    font-size: 18px;
+  }
+  #people ul li {
+    width: 100%;
+    margin-right: 0;
+    float: none;
+    margin-bottom: 60px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (max-width: $phone-portrait) {
+  section {
+    padding: 80px 0;
+  }
+  .container {
+    padding: 0 20px;
+  }
+  h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  #hero p {
+    font-size: 18px;
+  }
+  h2 {
+    margin-bottom: 40px;
+  }
+  #introduction {
+    font-size: 16px;
+  }
+  .company {
+    width: 100%;
+    margin-right: 0;
+    float: none;
+  }
+  footer .logo {
+    float: none;
+    margin-bottom: 60px;
+  }
+  footer .contact-details {
+    float: none;
+  }
+  footer #copyright {
+    text-align: left;
+    float: none;
+  }
+}
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+  .logo {
+    background-image: url("/img/logo@2x.png");
+  }
+}
