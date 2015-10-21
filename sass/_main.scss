@@ -50,7 +50,7 @@ p {
 
 .container {
   max-width: 1080px;
-  padding: 0 20px;
+  padding: 0 40px;
   margin: 0 auto;
 }
 
@@ -195,8 +195,11 @@ section {
   &#stealth img {
       width: 164px;
   }
-  &#domino img {
+  &#domino {
+    margin-bottom: 0;
+    img {
       width: 140px;
+    }
   }
 }
 
@@ -273,6 +276,98 @@ footer {
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 120dpi) {
 
+}
+
+
+// Landscape tablet and down
+@media (max-width: $tablet-landscape) {
+  #hero-content {
+    width: 71.428571428571%;
+  }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: $tablet-portrait + 1) and (max-width: $tablet-landscape) {
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: $tablet-portrait) {
+  #introduction {
+    font-size: 14px;
+  }
+
+}
+
+/* Landscape phones and down */
+@media (max-width: $phone-landscape) {
+  section {
+    padding: 100px 0;
+  }
+  h2 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+  #introduction {
+    font-size: 16px;
+  }
+  #hero-content {
+    width: 100%;
+  }
+  #intro-content .col-4 {
+    width: 100%;
+    margin-right: 0;
+    float: none;
+  }
+  #introduction {
+    font-size: 18px;
+  }
+  #people ul li {
+    width: 100%;
+    margin-right: 0;
+    float: none;
+    margin-bottom: 60px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (max-width: $phone-portrait) {
+  section {
+    padding: 80px 0;
+  }
+  .container {
+    padding: 0 20px;
+  }
+  h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  #hero p {
+    font-size: 18px;
+  }
+  h2 {
+    margin-bottom: 40px;
+  }
+  #introduction {
+    font-size: 16px;
+  }
+  .company {
+    width: 100%;
+    margin-right: 0;
+    float: none;
+  }
+  footer .logo {
+    float: none;
+    margin-bottom: 60px;
+  }
+  footer .contact-details {
+    float: none;
+  }
+  footer #copyright {
+    text-align: left;
+    float: none;
+  }
 }
 
 
