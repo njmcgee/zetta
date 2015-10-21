@@ -418,19 +418,8 @@ section {
   padding: 120px 0;
 }
 
-/* line 63, ../sass/_main.scss */
-#hero {
-  background: #b5533f;
-  color: white;
-  background-image: url("/img/hero-bg.png");
-  background-position: center bottom;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-/* line 72, ../sass/_main.scss */
-#hero .logo {
+/* line 62, ../sass/_main.scss */
+.logo {
   width: 100px;
   height: 65px;
   display: block;
@@ -444,20 +433,32 @@ section {
   background-size: 100px 65px;
   margin-bottom: 55px;
 }
-/* line 81, ../sass/_main.scss */
+
+/* line 71, ../sass/_main.scss */
+#hero {
+  background: #b5533f;
+  color: white;
+  background-image: url("/img/hero-bg.png");
+  background-position: center bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 80, ../sass/_main.scss */
 #hero p {
   font-size: 22px;
   margin-bottom: 32px;
 }
 
-/* line 86, ../sass/_main.scss */
+/* line 85, ../sass/_main.scss */
 #hero-content {
   width: 48.14815%;
   margin: 0 auto;
   background-image: url("/img/hero-bg.png");
 }
 
-/* line 93, ../sass/_main.scss */
+/* line 92, ../sass/_main.scss */
 #introduction {
   background: #155B62;
   color: white;
@@ -470,7 +471,7 @@ section {
   background-size: cover;
 }
 
-/* line 104, ../sass/_main.scss */
+/* line 103, ../sass/_main.scss */
 #intro-content {
   *zoom: 1;
 }
@@ -483,27 +484,27 @@ section {
 #intro-content:after {
   clear: both;
 }
-/* line 106, ../sass/_main.scss */
+/* line 105, ../sass/_main.scss */
 #intro-content .col-4 {
   float: left;
   width: 48.14815%;
   margin-right: 3.7037%;
 }
-/* line 110, ../sass/_main.scss */
+/* line 109, ../sass/_main.scss */
 #intro-content .col-4:last-child {
   margin-right: 0;
 }
 
-/* line 118, ../sass/_main.scss */
+/* line 117, ../sass/_main.scss */
 #companies h2 {
   color: #155B62;
 }
 
-/* line 124, ../sass/_main.scss */
+/* line 123, ../sass/_main.scss */
 #people {
   background: #F5F5F5;
 }
-/* line 126, ../sass/_main.scss */
+/* line 125, ../sass/_main.scss */
 #people ul {
   *zoom: 1;
 }
@@ -516,22 +517,23 @@ section {
 #people ul:after {
   clear: both;
 }
-/* line 128, ../sass/_main.scss */
+/* line 127, ../sass/_main.scss */
 #people ul li {
   float: left;
   width: 30.864197530864%;
   margin-right: 3.7037%;
 }
-/* line 132, ../sass/_main.scss */
+/* line 131, ../sass/_main.scss */
 #people ul li:last-child {
   margin-right: 0;
 }
 
-/* line 142, ../sass/_main.scss */
+/* line 141, ../sass/_main.scss */
 footer {
   background: #b5533f;
   color: white;
   padding: 90px 0;
+  *zoom: 1;
   background-image: url("/img/hero-bg.png");
   background-position: center bottom;
   -webkit-background-size: cover;
@@ -539,13 +541,43 @@ footer {
   -o-background-size: cover;
   background-size: cover;
 }
+/* line 2, ../sass/_mixins.scss */
+footer:before, footer:after {
+  content: " ";
+  display: table;
+}
+/* line 6, ../sass/_mixins.scss */
+footer:after {
+  clear: both;
+}
+/* line 152, ../sass/_main.scss */
+footer .logo {
+  float: left;
+  margin-right: 3.7037%;
+  margin-bottom: 0;
+}
+/* line 157, ../sass/_main.scss */
+footer p {
+  margin-bottom: 0;
+}
+/* line 160, ../sass/_main.scss */
+footer .contact-details {
+  float: left;
+  margin-top: 13px;
+}
+/* line 164, ../sass/_main.scss */
+footer #copyright {
+  float: right;
+  text-align: right;
+  margin-top: 51px;
+}
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 182, ../sass/_main.scss */
-  #hero .logo {
+  /* line 199, ../sass/_main.scss */
+  .logo {
     background-image: url("/img/logo@2x.png");
   }
 }
