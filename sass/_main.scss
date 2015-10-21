@@ -63,7 +63,7 @@ section {
   width: 100px;
   height: 65px;
   display: block;
-  background-image: url("/img/logo.png");
+  background-image: url("img/logo.png");
   @include hide-text;
   @include background-size(100px 65px);
   margin-bottom: 55px;
@@ -71,7 +71,7 @@ section {
 #hero {
   background: $red;
   color: $white;
-  background-image: url("/img/hero-bg.png");
+  background-image: url("img/hero-bg.png");
   background-position: center bottom;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -85,7 +85,7 @@ section {
 #hero-content {
   width: $col4;
   margin: 0 auto;
-  background-image: url("/img/hero-bg.png");
+  background-image: url("img/hero-bg.png");
 }
 
 
@@ -93,7 +93,7 @@ section {
   background: $dark-blue;
   color: $white;
   font-size: 18px;
-  background-image: url("/img/intro-bg.png");
+  background-image: url("img/intro-bg.png");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -230,7 +230,7 @@ footer {
   color: $white;
   padding: 90px 0;
   @include clearfix;
-  background-image: url("/img/hero-bg.png");
+  background-image: url("img/hero-bg.png");
   background-position: center bottom;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -376,6 +376,6 @@ footer {
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
   .logo {
-    background-image: url("/img/logo@2x.png");
+    background-image: url("img/logo@2x.png");
   }
 }
