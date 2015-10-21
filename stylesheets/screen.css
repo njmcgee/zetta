@@ -513,27 +513,41 @@ section {
 .company-pair:after {
   clear: both;
 }
-/* line 123, ../sass/_main.scss */
-.company-pair .company {
+
+/* line 124, ../sass/_main.scss */
+.company {
   width: 48.14815%;
   float: left;
   margin-right: 3.7037%;
   margin-bottom: 70px;
 }
-/* line 128, ../sass/_main.scss */
-.company-pair .company:last-child {
+/* line 129, ../sass/_main.scss */
+.company:last-child {
   margin-right: 0;
 }
-
+/* line 132, ../sass/_main.scss */
+.company dl {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
 /* line 135, ../sass/_main.scss */
+.company dl dt {
+  float: left;
+  width: 86px;
+  text-align: right;
+  margin-right: 8px;
+  font-weight: 700;
+}
+
+/* line 146, ../sass/_main.scss */
 #people {
   background: #F5F5F5;
 }
-/* line 137, ../sass/_main.scss */
+/* line 148, ../sass/_main.scss */
 #people h2 {
   color: #155B62;
 }
-/* line 140, ../sass/_main.scss */
+/* line 151, ../sass/_main.scss */
 #people ul {
   *zoom: 1;
 }
@@ -546,18 +560,18 @@ section {
 #people ul:after {
   clear: both;
 }
-/* line 142, ../sass/_main.scss */
+/* line 153, ../sass/_main.scss */
 #people ul li {
   float: left;
   width: 30.864197530864%;
   margin-right: 3.7037%;
 }
-/* line 146, ../sass/_main.scss */
+/* line 157, ../sass/_main.scss */
 #people ul li:last-child {
   margin-right: 0;
 }
 
-/* line 156, ../sass/_main.scss */
+/* line 167, ../sass/_main.scss */
 footer {
   background: #b5533f;
   color: white;
@@ -579,22 +593,22 @@ footer:before, footer:after {
 footer:after {
   clear: both;
 }
-/* line 167, ../sass/_main.scss */
+/* line 178, ../sass/_main.scss */
 footer .logo {
   float: left;
   margin-right: 3.7037%;
   margin-bottom: 0;
 }
-/* line 172, ../sass/_main.scss */
+/* line 183, ../sass/_main.scss */
 footer p {
   margin-bottom: 0;
 }
-/* line 175, ../sass/_main.scss */
+/* line 186, ../sass/_main.scss */
 footer .contact-details {
   float: left;
   margin-top: 13px;
 }
-/* line 179, ../sass/_main.scss */
+/* line 190, ../sass/_main.scss */
 footer #copyright {
   float: right;
   text-align: right;
@@ -605,7 +619,7 @@ footer #copyright {
    Media Queries
    ========================================================================== */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 214, ../sass/_main.scss */
+  /* line 225, ../sass/_main.scss */
   .logo {
     background-image: url("/img/logo@2x.png");
   }

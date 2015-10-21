@@ -120,13 +120,24 @@ section {
 }
 .company-pair {
   @include clearfix;
-  .company {
-    width: $col4;
-    float: left;
-    margin-right: $margin-1;
-    margin-bottom: 70px;
-    &:last-child {
-      margin-right: 0;
+}
+.company {
+  width: $col4;
+  float: left;
+  margin-right: $margin-1;
+  margin-bottom: 70px;
+  &:last-child {
+    margin-right: 0;
+  }
+  dl {
+    font-size: 16px;
+    margin-bottom: 20px;
+    dt {
+      float: left;
+      width: 86px;
+      text-align: right;
+      margin-right: 8px;
+      font-weight: $bold;
     }
   }
 }
