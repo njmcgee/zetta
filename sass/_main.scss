@@ -10,6 +10,7 @@
 html {
   background: $red;
   font-family: "ff-meta-serif-web-pro", Georgia, serif;
+  -webkit-font-smoothing:antialiased;
   font-weight: $normal;
   color: $text-color;
   font-size: 14px;
@@ -17,6 +18,30 @@ html {
 
 body {
   background: $white;
+}
+
+h1 {
+  font-size: 43px;
+  line-height: 51px;
+  margin-bottom: 32px;
+}
+h2 {
+  font-size: 48px;
+  line-height: 62px;
+  font-weight: $bold;
+  margin-bottom: 60px;
+}
+h3 {
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+a {
+  color: $red;
+  text-decoration: underline;
+  &:hover {
+    color: $dark-blue;
+  }
 }
 
 p {
@@ -44,16 +69,31 @@ section {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  .logo {
+    width: 100px;
+    height: 65px;
+    display: block;
+    background-image: url("/img/logo.png");
+    @include hide-text;
+    @include background-size(100px 65px);
+    margin-bottom: 55px;
+  }
+  p {
+    font-size: 22px;
+    margin-bottom: 32px;
+  }
 }
 #hero-content {
   width: $col4;
   margin: 0 auto;
+  background-image: url("/img/hero-bg.png");
 }
 
 
 #introduction {
   background: $dark-blue;
   color: $white;
+  font-size: 18px;
   background-image: url("/img/intro-bg.png");
   background-position: center center;
   -webkit-background-size: cover;
@@ -70,6 +110,13 @@ section {
     &:last-child {
       margin-right: 0;
     }
+  }
+}
+
+
+#companies {
+  h2 {
+    color: $dark-blue;
   }
 }
 
@@ -125,4 +172,14 @@ footer {
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 120dpi) {
 
+}
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+  #hero .logo {
+    background-image: url("/img/logo@2x.png");
+  }
 }
