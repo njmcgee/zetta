@@ -118,10 +118,25 @@ section {
     color: $dark-blue;
   }
 }
+.company-pair {
+  @include clearfix;
+  .company {
+    width: $col4;
+    float: left;
+    margin-right: $margin-1;
+    margin-bottom: 70px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
 
 
 #people {
   background: $light-grey;
+  h2 {
+    color: $dark-blue;
+  }
   ul {
     @include clearfix;
     li {
