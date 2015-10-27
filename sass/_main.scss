@@ -101,6 +101,10 @@ section {
   background-size: cover;
 }
 #intro-content {
+  padding-bottom: 60px;
+  border-bottom: 1px solid $white;
+}
+#intro-content, #press {
   @include clearfix;
   .col-4 {
     float: left;
@@ -110,7 +114,25 @@ section {
       margin-right: 0;
     }
   }
+  a {
+    color: $white;
+    text-decoration: underline;
+  }
 }
+#press {
+  padding-top: 60px;
+  h3 {
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: $bold;
+  }
+  ul {
+    li {
+      margin-bottom: 16px;
+    }
+  }
+}
+
 
 
 #companies {
@@ -323,7 +345,7 @@ footer {
   #hero-content {
     width: 100%;
   }
-  #intro-content .col-4 {
+  #intro-content .col-4, #press .col-4 {
     width: 100%;
     margin-right: 0;
     float: none;
