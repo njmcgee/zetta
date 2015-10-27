@@ -650,7 +650,22 @@ section {
   margin-right: 0;
 }
 
-/* line 228, ../sass/_main.scss */
+/* line 224, ../sass/_main.scss */
+.person {
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+/* line 230, ../sass/_main.scss */
+.person img {
+  max-width: 100%;
+}
+
+/* line 238, ../sass/_main.scss */
 footer {
   background: #b5533f;
   color: white;
@@ -672,22 +687,22 @@ footer:before, footer:after {
 footer:after {
   clear: both;
 }
-/* line 239, ../sass/_main.scss */
+/* line 249, ../sass/_main.scss */
 footer .logo {
   float: left;
   margin-right: 3.7037%;
   margin-bottom: 0;
 }
-/* line 244, ../sass/_main.scss */
+/* line 254, ../sass/_main.scss */
 footer p {
   margin-bottom: 0;
 }
-/* line 247, ../sass/_main.scss */
+/* line 257, ../sass/_main.scss */
 footer .contact-details {
   float: left;
   margin-top: 13px;
 }
-/* line 251, ../sass/_main.scss */
+/* line 261, ../sass/_main.scss */
 footer #copyright {
   float: right;
   text-align: right;
@@ -698,7 +713,7 @@ footer #copyright {
    Media Queries
    ========================================================================== */
 @media (max-width: 1024px) {
-  /* line 284, ../sass/_main.scss */
+  /* line 294, ../sass/_main.scss */
   #hero-content {
     width: 71.428571428571%;
   }
@@ -706,116 +721,116 @@ footer #copyright {
 /* Portrait tablet to landscape and desktop */
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-  /* line 295, ../sass/_main.scss */
+  /* line 305, ../sass/_main.scss */
   #introduction {
     font-size: 14px;
   }
 }
 /* Landscape phones and down */
 @media (max-width: 667px) {
-  /* line 303, ../sass/_main.scss */
+  /* line 313, ../sass/_main.scss */
   section {
     padding: 100px 0;
   }
 
-  /* line 306, ../sass/_main.scss */
+  /* line 316, ../sass/_main.scss */
   h2 {
     font-size: 34px;
     line-height: 42px;
   }
 
-  /* line 310, ../sass/_main.scss */
+  /* line 320, ../sass/_main.scss */
   #introduction {
     font-size: 16px;
   }
 
-  /* line 313, ../sass/_main.scss */
+  /* line 323, ../sass/_main.scss */
   #hero-content {
     width: 100%;
   }
 
-  /* line 316, ../sass/_main.scss */
+  /* line 326, ../sass/_main.scss */
   #intro-content .col-4 {
     width: 100%;
     margin-right: 0;
     float: none;
   }
 
-  /* line 321, ../sass/_main.scss */
+  /* line 331, ../sass/_main.scss */
   #introduction {
     font-size: 18px;
   }
 
-  /* line 324, ../sass/_main.scss */
+  /* line 334, ../sass/_main.scss */
   #people ul li {
     width: 100%;
     margin-right: 0;
     float: none;
     margin-bottom: 60px;
   }
-  /* line 329, ../sass/_main.scss */
+  /* line 339, ../sass/_main.scss */
   #people ul li:last-child {
     margin-bottom: 0;
   }
 }
 @media (max-width: 414px) {
-  /* line 336, ../sass/_main.scss */
+  /* line 346, ../sass/_main.scss */
   section {
     padding: 80px 0;
   }
 
-  /* line 339, ../sass/_main.scss */
+  /* line 349, ../sass/_main.scss */
   .container {
     padding: 0 20px;
   }
 
-  /* line 342, ../sass/_main.scss */
+  /* line 352, ../sass/_main.scss */
   h1 {
     font-size: 32px;
     line-height: 40px;
   }
 
-  /* line 346, ../sass/_main.scss */
+  /* line 356, ../sass/_main.scss */
   #hero p {
     font-size: 18px;
   }
 
-  /* line 349, ../sass/_main.scss */
+  /* line 359, ../sass/_main.scss */
   h2 {
     margin-bottom: 40px;
   }
 
-  /* line 352, ../sass/_main.scss */
+  /* line 362, ../sass/_main.scss */
   #introduction {
     font-size: 16px;
   }
 
-  /* line 355, ../sass/_main.scss */
+  /* line 365, ../sass/_main.scss */
   .company {
     width: 100%;
     margin-right: 0;
     float: none;
   }
 
-  /* line 360, ../sass/_main.scss */
+  /* line 370, ../sass/_main.scss */
   footer .logo {
     float: none;
     margin-bottom: 60px;
   }
 
-  /* line 364, ../sass/_main.scss */
+  /* line 374, ../sass/_main.scss */
   footer .contact-details {
     float: none;
   }
 
-  /* line 367, ../sass/_main.scss */
+  /* line 377, ../sass/_main.scss */
   footer #copyright {
     text-align: left;
     float: none;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 378, ../sass/_main.scss */
+  /* line 388, ../sass/_main.scss */
   .logo {
     background-image: url("../img/logo@2x.png");
   }

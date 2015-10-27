@@ -221,6 +221,16 @@ section {
     }
   }
 }
+.person {
+  width: 100px;
+  height: 100px;
+  @include border-radius(100px);
+  overflow: hidden;
+  margin-bottom: 20px;
+  img {
+    max-width: 100%;
+  }
+}
 
 
 
