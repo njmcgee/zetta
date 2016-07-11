@@ -644,16 +644,24 @@ section {
 .company#domino img {
   width: 140px;
 }
+/* line 227, ../sass/_main.scss */
+.company#appdiff {
+  margin-bottom: 0;
+}
+/* line 229, ../sass/_main.scss */
+.company#appdiff img {
+  width: 170px;
+}
 
-/* line 230, ../sass/_main.scss */
+/* line 236, ../sass/_main.scss */
 #people {
   background: #F5F5F5;
 }
-/* line 232, ../sass/_main.scss */
+/* line 238, ../sass/_main.scss */
 #people h2 {
   color: #155B62;
 }
-/* line 235, ../sass/_main.scss */
+/* line 241, ../sass/_main.scss */
 #people ul {
   *zoom: 1;
 }
@@ -666,18 +674,18 @@ section {
 #people ul:after {
   clear: both;
 }
-/* line 237, ../sass/_main.scss */
+/* line 243, ../sass/_main.scss */
 #people ul li {
   float: left;
   width: 30.864197530864%;
   margin-right: 3.7037%;
 }
-/* line 241, ../sass/_main.scss */
+/* line 247, ../sass/_main.scss */
 #people ul li:last-child {
   margin-right: 0;
 }
 
-/* line 247, ../sass/_main.scss */
+/* line 253, ../sass/_main.scss */
 .person {
   width: 100px;
   height: 100px;
@@ -687,12 +695,12 @@ section {
   overflow: hidden;
   margin-bottom: 20px;
 }
-/* line 253, ../sass/_main.scss */
+/* line 259, ../sass/_main.scss */
 .person img {
   max-width: 100%;
 }
 
-/* line 261, ../sass/_main.scss */
+/* line 267, ../sass/_main.scss */
 footer {
   background: #b5533f;
   color: white;
@@ -714,22 +722,22 @@ footer:before, footer:after {
 footer:after {
   clear: both;
 }
-/* line 272, ../sass/_main.scss */
+/* line 278, ../sass/_main.scss */
 footer .logo {
   float: left;
   margin-right: 3.7037%;
   margin-bottom: 0;
 }
-/* line 277, ../sass/_main.scss */
+/* line 283, ../sass/_main.scss */
 footer p {
   margin-bottom: 0;
 }
-/* line 280, ../sass/_main.scss */
+/* line 286, ../sass/_main.scss */
 footer .contact-details {
   float: left;
   margin-top: 13px;
 }
-/* line 284, ../sass/_main.scss */
+/* line 290, ../sass/_main.scss */
 footer #copyright {
   float: right;
   text-align: right;
@@ -740,7 +748,7 @@ footer #copyright {
    Media Queries
    ========================================================================== */
 @media (max-width: 1024px) {
-  /* line 317, ../sass/_main.scss */
+  /* line 323, ../sass/_main.scss */
   #hero-content {
     width: 71.428571428571%;
   }
@@ -748,116 +756,116 @@ footer #copyright {
 /* Portrait tablet to landscape and desktop */
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-  /* line 328, ../sass/_main.scss */
+  /* line 334, ../sass/_main.scss */
   #introduction {
     font-size: 14px;
   }
 }
 /* Landscape phones and down */
 @media (max-width: 667px) {
-  /* line 336, ../sass/_main.scss */
+  /* line 342, ../sass/_main.scss */
   section {
     padding: 100px 0;
   }
 
-  /* line 339, ../sass/_main.scss */
+  /* line 345, ../sass/_main.scss */
   h2 {
     font-size: 34px;
     line-height: 42px;
   }
 
-  /* line 343, ../sass/_main.scss */
+  /* line 349, ../sass/_main.scss */
   #introduction {
     font-size: 16px;
   }
 
-  /* line 346, ../sass/_main.scss */
+  /* line 352, ../sass/_main.scss */
   #hero-content {
     width: 100%;
   }
 
-  /* line 349, ../sass/_main.scss */
+  /* line 355, ../sass/_main.scss */
   #intro-content .col-4, #press .col-4 {
     width: 100%;
     margin-right: 0;
     float: none;
   }
 
-  /* line 354, ../sass/_main.scss */
+  /* line 360, ../sass/_main.scss */
   #introduction {
     font-size: 18px;
   }
 
-  /* line 357, ../sass/_main.scss */
+  /* line 363, ../sass/_main.scss */
   #people ul li {
     width: 100%;
     margin-right: 0;
     float: none;
     margin-bottom: 60px;
   }
-  /* line 362, ../sass/_main.scss */
+  /* line 368, ../sass/_main.scss */
   #people ul li:last-child {
     margin-bottom: 0;
   }
 }
 @media (max-width: 414px) {
-  /* line 369, ../sass/_main.scss */
+  /* line 375, ../sass/_main.scss */
   section {
     padding: 80px 0;
   }
 
-  /* line 372, ../sass/_main.scss */
+  /* line 378, ../sass/_main.scss */
   .container {
     padding: 0 20px;
   }
 
-  /* line 375, ../sass/_main.scss */
+  /* line 381, ../sass/_main.scss */
   h1 {
     font-size: 32px;
     line-height: 40px;
   }
 
-  /* line 379, ../sass/_main.scss */
+  /* line 385, ../sass/_main.scss */
   #hero p {
     font-size: 18px;
   }
 
-  /* line 382, ../sass/_main.scss */
+  /* line 388, ../sass/_main.scss */
   h2 {
     margin-bottom: 40px;
   }
 
-  /* line 385, ../sass/_main.scss */
+  /* line 391, ../sass/_main.scss */
   #introduction {
     font-size: 16px;
   }
 
-  /* line 388, ../sass/_main.scss */
+  /* line 394, ../sass/_main.scss */
   .company {
     width: 100%;
     margin-right: 0;
     float: none;
   }
 
-  /* line 393, ../sass/_main.scss */
+  /* line 399, ../sass/_main.scss */
   footer .logo {
     float: none;
     margin-bottom: 60px;
   }
 
-  /* line 397, ../sass/_main.scss */
+  /* line 403, ../sass/_main.scss */
   footer .contact-details {
     float: none;
   }
 
-  /* line 400, ../sass/_main.scss */
+  /* line 406, ../sass/_main.scss */
   footer #copyright {
     text-align: left;
     float: none;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 411, ../sass/_main.scss */
+  /* line 417, ../sass/_main.scss */
   .logo {
     background-image: url("../img/logo@2x.png");
   }
