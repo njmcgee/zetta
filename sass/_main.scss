@@ -256,9 +256,12 @@ section {
       float: left;
       width: 30.864197530864%;
       margin-right: $margin-1;
-      &:last-child {
+      &:nth-child(3) {
         margin-right: 0;
       }
+    }
+    &#top {
+      margin-bottom: 30px;
     }
   }
 }

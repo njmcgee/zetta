@@ -689,11 +689,15 @@ section {
   margin-right: 3.7037%;
 }
 /* line 259, ../sass/_main.scss */
-#people ul li:last-child {
+#people ul li:nth-child(3) {
   margin-right: 0;
 }
+/* line 263, ../sass/_main.scss */
+#people ul#top {
+  margin-bottom: 30px;
+}
 
-/* line 265, ../sass/_main.scss */
+/* line 268, ../sass/_main.scss */
 .person {
   width: 100px;
   height: 100px;
@@ -703,12 +707,12 @@ section {
   overflow: hidden;
   margin-bottom: 20px;
 }
-/* line 271, ../sass/_main.scss */
+/* line 274, ../sass/_main.scss */
 .person img {
   max-width: 100%;
 }
 
-/* line 279, ../sass/_main.scss */
+/* line 282, ../sass/_main.scss */
 footer {
   background: #b5533f;
   color: white;
@@ -730,22 +734,22 @@ footer:before, footer:after {
 footer:after {
   clear: both;
 }
-/* line 290, ../sass/_main.scss */
+/* line 293, ../sass/_main.scss */
 footer .logo {
   float: left;
   margin-right: 3.7037%;
   margin-bottom: 0;
 }
-/* line 295, ../sass/_main.scss */
+/* line 298, ../sass/_main.scss */
 footer p {
   margin-bottom: 0;
 }
-/* line 298, ../sass/_main.scss */
+/* line 301, ../sass/_main.scss */
 footer .contact-details {
   float: left;
   margin-top: 13px;
 }
-/* line 302, ../sass/_main.scss */
+/* line 305, ../sass/_main.scss */
 footer #copyright {
   float: right;
   text-align: right;
@@ -756,7 +760,7 @@ footer #copyright {
    Media Queries
    ========================================================================== */
 @media (max-width: 1024px) {
-  /* line 335, ../sass/_main.scss */
+  /* line 338, ../sass/_main.scss */
   #hero-content {
     width: 71.428571428571%;
   }
@@ -764,116 +768,116 @@ footer #copyright {
 /* Portrait tablet to landscape and desktop */
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-  /* line 346, ../sass/_main.scss */
+  /* line 349, ../sass/_main.scss */
   #introduction {
     font-size: 14px;
   }
 }
 /* Landscape phones and down */
 @media (max-width: 667px) {
-  /* line 354, ../sass/_main.scss */
+  /* line 357, ../sass/_main.scss */
   section {
     padding: 100px 0;
   }
 
-  /* line 357, ../sass/_main.scss */
+  /* line 360, ../sass/_main.scss */
   h2 {
     font-size: 34px;
     line-height: 42px;
   }
 
-  /* line 361, ../sass/_main.scss */
+  /* line 364, ../sass/_main.scss */
   #introduction {
     font-size: 16px;
   }
 
-  /* line 364, ../sass/_main.scss */
+  /* line 367, ../sass/_main.scss */
   #hero-content {
     width: 100%;
   }
 
-  /* line 367, ../sass/_main.scss */
+  /* line 370, ../sass/_main.scss */
   #intro-content .col-4, #press .col-4 {
     width: 100%;
     margin-right: 0;
     float: none;
   }
 
-  /* line 372, ../sass/_main.scss */
+  /* line 375, ../sass/_main.scss */
   #introduction {
     font-size: 18px;
   }
 
-  /* line 375, ../sass/_main.scss */
+  /* line 378, ../sass/_main.scss */
   #people ul li {
     width: 100%;
     margin-right: 0;
     float: none;
     margin-bottom: 60px;
   }
-  /* line 380, ../sass/_main.scss */
+  /* line 383, ../sass/_main.scss */
   #people ul li:last-child {
     margin-bottom: 0;
   }
 }
 @media (max-width: 414px) {
-  /* line 387, ../sass/_main.scss */
+  /* line 390, ../sass/_main.scss */
   section {
     padding: 80px 0;
   }
 
-  /* line 390, ../sass/_main.scss */
+  /* line 393, ../sass/_main.scss */
   .container {
     padding: 0 20px;
   }
 
-  /* line 393, ../sass/_main.scss */
+  /* line 396, ../sass/_main.scss */
   h1 {
     font-size: 32px;
     line-height: 40px;
   }
 
-  /* line 397, ../sass/_main.scss */
+  /* line 400, ../sass/_main.scss */
   #hero p {
     font-size: 18px;
   }
 
-  /* line 400, ../sass/_main.scss */
+  /* line 403, ../sass/_main.scss */
   h2 {
     margin-bottom: 40px;
   }
 
-  /* line 403, ../sass/_main.scss */
+  /* line 406, ../sass/_main.scss */
   #introduction {
     font-size: 16px;
   }
 
-  /* line 406, ../sass/_main.scss */
+  /* line 409, ../sass/_main.scss */
   .company {
     width: 100%;
     margin-right: 0;
     float: none;
   }
 
-  /* line 411, ../sass/_main.scss */
+  /* line 414, ../sass/_main.scss */
   footer .logo {
     float: none;
     margin-bottom: 60px;
   }
 
-  /* line 415, ../sass/_main.scss */
+  /* line 418, ../sass/_main.scss */
   footer .contact-details {
     float: none;
   }
 
-  /* line 418, ../sass/_main.scss */
+  /* line 421, ../sass/_main.scss */
   footer #copyright {
     text-align: left;
     float: none;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-  /* line 429, ../sass/_main.scss */
+  /* line 432, ../sass/_main.scss */
   .logo {
     background-image: url("../img/logo@2x.png");
   }
