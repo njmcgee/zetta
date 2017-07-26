@@ -263,10 +263,12 @@ section {
 
 #people {
   background: $light-grey;
+  padding-bottom: 90px;
   h2 {
     color: $dark-blue;
   }
   ul {
+    margin-bottom: 30px;
     @include clearfix;
     li {
       float: left;
@@ -275,9 +277,6 @@ section {
       &:nth-child(3) {
         margin-right: 0;
       }
-    }
-    &#top {
-      margin-bottom: 30px;
     }
   }
 }
