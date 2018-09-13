@@ -179,14 +179,14 @@ section {
     img {
       width: 100%;
       vertical-align: middle;
-      max-height: 50px;
+      max-height: 70px;
     }
   }
   &#domo img {
       width: 72px;
   }
   &#insidesales img {
-      width: 170px;
+      width: 70px;
   }
   &#lucid img {
       width: 80px;
@@ -204,10 +204,10 @@ section {
       width: 100px;
   }
   &#tractable img {
-      width: 44px;
+      width: 110px;
   }
   &#content img {
-      width: 110px;
+      width: 130px;
   }
   &#optimine img {
       width: 140px;
@@ -223,19 +223,19 @@ section {
       width: 140px;
     }
   }
-  &#appdiff {
+  &#test-ai {
     img {
-      width: 170px;
+      width: 140px;
     }
   }
   &#focal {
     img {
-      width: 78px;
+      width: 88px;
     }
   }
   &#lilt {
     img {
-      width: 50px;
+      width: 110px;
     }
   }
   &#falkonry {
@@ -261,6 +261,16 @@ section {
   &#constructor {
     img {
       width: 170px;
+    }
+  }
+  &#finite-state {
+    img {
+      width: 190px;
+    }
+  }
+  &#rever {
+    img {
+      width: 90px;
     }
   }
 }
